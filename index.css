@@ -1,0 +1,356 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.upperNavBar {
+  background-color: #25cf60;
+  text-align: center;
+  padding: 20px 0;
+  font: 16px sans-serif;
+}
+.upperNavBar > p {
+  color: white;
+}
+.upperNavBar > p > span {
+  text-decoration: underline;
+  font-weight: 600;
+}
+nav {
+  /* border: 2px solid red; */
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  background-color: #fff;
+  /* margin-top:70px; */
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+nav > .container {
+  display: flex;
+  place-items: center;
+  gap: 150px;
+  /* border: 2px solid green; */
+
+  /* text-align: center; */
+}
+.logo {
+  width: 10%;
+  /* margin-right: 30px; */
+}
+.navFeatures {
+  display: flex;
+  gap: 30px;
+  width: 30%;
+  font: 16px sans-serif;
+}
+.signup {
+  display: flex;
+  gap: 30px;
+  width: 40%;
+  font: 16px sans-serif;
+}
+.signup > p {
+  padding-top: 15px;
+}
+.signupBorder {
+  padding-right: 20px;
+  border-right: 2px solid #25cf60;
+}
+.signupButton {
+  background-color: #f7b801;
+  color: #fff;
+  padding: 15px 40px;
+  border-radius: 20px;
+}
+nav p:hover {
+  color: #f7b801;
+  cursor: pointer;
+}
+.signupButton:hover {
+  background-color: #f7ba01c9;
+  color: #fff;
+}
+/*---------------> body <------------ */
+.poster {
+  position: relative;
+}
+.backgroundPoster > img {
+  width: 100%;
+}
+.overlayPoster {
+  display: flex;
+  gap: 50px;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+.overlayPoster > div {
+  background-color: rgba(255, 255, 255, 0.902);
+  border-radius: 5px;
+}
+.overlayPosterOne {
+  max-width: 500px;
+  padding: 40px;
+}
+.overlayPosterOne > p:nth-child(1) {
+  font: 15px sans-serif;
+  margin-bottom: 15px;
+}
+.overlayPosterOne > h1 {
+  font: 500 52px sans-serif;
+  width: 90%;
+  margin-bottom: 15px;
+}
+.overlayPosterOne > ul {
+  padding: 0 10px 20px 0;
+  list-style: none;
+}
+.overlayPosterOne > ul > li {
+  font: 16px sans-serif;
+  padding: 0 15px;
+}
+.overlayPosterOne > ul > li > span {
+  font: 600 20px sans-serif;
+}
+.overlayPosterOne > input {
+  padding: 16px 64px 24px;
+  margin: 0 0 16px;
+  border: none;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.lable {
+  color: #767676;
+  font: 300 14px /25px sans-serif;
+  padding: 10px 0;
+  width: 90%;
+}
+.greenText {
+  color: #25cf60;
+}
+.overlayPosterOne > div {
+  display: flex;
+  /* place-items: center; */
+  justify-content: space-evenly;
+  text-align: center;
+}
+.overlayPosterOne > div > p {
+  width: 40%;
+}
+.greenButton {
+  font: 600 16px sans-serif;
+  padding: 20px 20px;
+  background-color: #25cf60;
+  border-radius: 20px;
+  color: white;
+}
+.overlayPosterOne > div > p:nth-child(2) {
+  color: #767676;
+}
+
+.overlayPosterTwo {
+  max-width: 400px;
+  height: 420px;
+  text-align: center;
+  margin-top: 20%;
+  padding: 50px 10px;
+}
+.overlayPosterTwo > img {
+  width: 80px;
+  margin: 30px;
+}
+.overlayPosterTwo > p {
+  font: 500 15px sans-serif;
+  margin-bottom: 16px;
+}
+/* ==>Teams<== */
+.trustedTeam {
+  background-color: #25cf60;
+  padding: 40px 0 16px;
+}
+.trustedTeam > p {
+  text-align: center;
+  font: 500 18px sans-serif;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.trustedTeam > div {
+  margin-left: 150px;
+}
+.trustedTeam > div > img {
+  margin: 0 25px;
+}
+/* ==> {RANDOM TEXt} <== */
+.randomText{
+  /* border: 2px dashed red; */
+  text-align: center;
+  margin: 50px 0;
+}
+.randomText>p{
+  font: 500 16px sans-serif;
+}
+.randomText>p>span{
+  padding-left: 16px;
+}
+.randomText>h1{
+  font: 36px sans-serif;
+  margin-top: 25px;
+}
+/* ==> Uses <== */
+.differentUse {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* place-items: center; */
+}
+.differentUse > div {
+  /* margin: auto; */
+  padding: 20px;
+}
+.part1Text {
+  width: 30%;
+}
+.part1Text > .greenText {
+  font: 600 14px sans-serif;
+  margin-bottom: 32px;
+}
+.para2 {
+  color: #1b1b20;
+  font: 500 48px sans-serif;
+}
+.para3 {
+  font: 500 15px sans-serif;
+  margin: 20px 0;
+  color: #000000;
+  line-height: 20px;
+}
+.para4 {
+  color: #767676;
+  font: 18px sans-serif;
+  padding-bottom: 10px;
+}
+.para5 {
+  color: #767676;
+  font: 18px sans-serif;
+  padding-bottom: 18px;
+}
+.greenBottomBorder {
+  color: #1b1b20;
+  font: 18px sans-serif;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #25cf60;
+  width: max-content;
+}
+.para7 {
+  color: #1b1b20;
+  font: 15px sans-serif;
+  padding-top: 16px;
+  margin-bottom: 16px;
+}
+.part1Text > .greenButton {
+  width: 60%;
+  margin-top: 50px;
+}
+.part2Image {
+  width: 50%;
+}
+.part2Image > img {
+  width: 100%;
+}
+/* ==> Apps USED <== */
+.appsUsed{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(236, 234, 234, 0.725);
+  padding: 2rem 0;
+}
+/* .appsUsed>div{
+  border: 2px dashed red;
+} */
+.appsUsed>.part1Text>p{
+  font: 18px sans-serif;
+}
+.darkText{
+  font-weight:bold;
+}
+.appsUsed>.part1Text>.para8{
+  display: flex;
+  place-items: center;
+  gap: 1rem;
+}
+.greenTextDark>.rightArrow{
+  font: 900 1.5em sans-serif;
+}
+.appsUsed>.part2Image{
+  display: grid;
+  max-width: max-content;
+  grid-template-columns: repeat(3,1fr);
+  gap: 3.5rem;
+  padding: 30px;
+}
+.appsUsed>.part2Image>img{
+  width: 100px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/* ==> FAQ <== */
+.FAQ{
+  width: 90%;
+  /* border: 2px dashed red; */
+  padding:30px;
+  margin: 0 auto;
+}
+.FAQ>h1{
+  text-align: center;
+  font: 32px sans-serif;
+  margin-bottom: 32px;
+}
+
+.FAQ>details>summary{
+  padding: 12px 20px ;
+  border-top: 1px solid rgb(215, 213, 213);
+  font: 20px sans-serif;
+  color: #1b1b20;
+  cursor: pointer;
+}
+.FAQ>details>p,ul{
+  font: 16px sans-serif;
+  margin-bottom: 16px;
+  margin-left: 3rem;
+  line-height: 1.3rem;
+}
+/* -----------> footer <------------ */
+footer {
+  padding: 32px;
+}
+.lists {
+  display: flex;
+  gap: 30px;
+}
+.lists > .list {
+  width: calc(100% / 6);
+}
+.list > ul > h3 {
+  font: 18px sans-serif;
+  color: #1b1b20;
+  margin-bottom: 30px;
+}
+.list > ul > li {
+  list-style: none;
+  font: 15px sans-serif;
+  color: grey;
+  margin-bottom: 20px;
+}
+.list > ul > li:hover {
+  color: #f7b801;
+  cursor: pointer;
+}
