@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+nav>.container{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav>.container>img{
+    width: 10%;
+}
+nav>.container>p{
+    font: 600 16px sans-serif;
+}
+#login{
+    cursor: pointer;
+}
+.body>.container{
+    /* border: 2px dashed red; */
+    width: 90%;
+    margin: 50px ;
+    display: flex;
+    justify-content: center;
+
+}
+.part1Info{
+    width: 50%;
+}
+.part1Info>h1{
+    font: 42px sans-serif;
+}
+.semiColon{
+    width: 53px;
+    height: 43px;
+    margin: 25px 0;
+}
+.part1Info>img:not(.semiColon){
+    width: 75px;
+    height: 100px;
+    margin-right: 40px;
+}
+.starFlex{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin:10px 0 50px 0 ;
+}
+.starFlex>div>p{
+    font: 16px sans-serif;
+    color: #1b1b20;
+    line-height: 1.25rem;
+}
+.starFlex>div>img{
+    margin: 20px 0;
+}
+.darkText{
+    color: grey;
+    font-weight:bold ;
+}
+.part2Form{
+    /* border: 2px solid green; */
+    padding: 20px 60px;
+    text-align: center;
+    width: 40%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 8px;
+}
+.part2Form>h1{
+    font: 36px sans-serif;
+    margin: 20px 0;
+}
+.part2Form>h2{
+    color: #767676;
+    font: 24px sans-serif;
+    margin: 20px 0;
+}
+.part2Form>h5{
+    color: #767676;
+    font: 16px sans-serif;
+    margin: 10px 0;
+}
+.part2Form>a{
+    border: 1px solid #7676765d;
+    padding:12px 30px;
+    margin: 20px 0;
+    text-decoration: none;
+    font:600 15px sans-serif;
+    color: #767676;
+    border-radius: 15px;
+
+}
+.part2Form>a>img{
+    width: 25px;
+    margin:10px 10px 0 0 ;
+}
+.part2Form>.aur{
+    font: 15px sans-serif;
+    margin: 20px 0;
+}
+.part2Form>form{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap:1rem;
+}
+.part2Form>form>input{
+    padding: 9px 16px;
+    max-width:200px ;
+    height: 40px;
+    border-radius:10px ;
+    border:1px solid #76767671;
+}
+.part2Form>form>input:focus{
+    border:1px solid #25cf60 ;
+}
+textarea:focus{
+    border:1px solid #25cf60 ;
+}
+.part2Form>form>input[type="submit"]{
+    background-color: #25cf60;
+    padding: 10px 40px;
+    margin: 20px 0;
+    color: #fff;
+    font: 600 15px sans-serif;
+    border: none;
+}
+.part2Form>form>input[type="submit"]:hover{
+    background-color: #126c31;
+}
+.part2Form>p{
+    font: 15px sans-serif;
+    color: #767676;
+}
+.greenText{
+    color: #25cf60;
+}

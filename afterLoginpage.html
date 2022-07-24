@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="afterLoginpage.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="sideBar">
+        <div class=" logo">
+            <img src="https://cdn-m.timecamp.com/img/greenbranding/press/timecamp-pr-materials/svg/colorLogo.svg" alt="">
+            <img src="https://cdn-m.timecamp.com/img/greenbranding/press/timecamp-pr-materials/svg/colorIcon.svg" alt="">
+        </div>
+        <div class="block">
+            <h6>TRACK</h6>
+            <div>
+                <span class="material-symbols-outlined">
+                    schedule
+                </span>
+                <span>Timesheet</span>
+            </div>
+        </div>
+        <div class="block innerListContainer">
+            <h6>ANALYZE</h6>
+            <div class="innerListHover">
+                <span class="material-symbols-outlined">
+                    pie_chart
+                    </span>
+                <span>Reports</span><span class="material-symbols-outlined innerListArrow">
+                    keyboard_arrow_right
+                    </span>
+                    <div class="innerList">
+                        <div class="block">
+                            <h6>TIME REPORTS</h6>
+                            <div>
+                                <span class="material-symbols-outlined">
+                                    monitoring
+                                    </span>
+                                    <span>Summary</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined">
+                                    zoom_in
+                                    </span>
+                                    <span>Detailed</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined">
+                                    calendar_month
+                                </span>
+                                <span>By Days</span>
+        
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined">
+                                    window
+                                </span>
+                                <span>Custom</span>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <h6>PEOPLE REPORTS</h6>
+                            <div>
+                                <span class="material-symbols-outlined">group</span>
+                                <span>People by tasks</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined">group</span>
+                                <span>People by days and tasks</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined">group</span>
+                                <span>People by days</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined">group</span>
+                                <span>People by projects</span>
+                            </div>
+                        </div>    
+                        <div class="block">
+                            <h6>BUDGETING REPORTS</h6>
+                            <div>
+                                <span class="material-symbols-outlined">
+                                    payments
+                                    </span>
+                                <span>Billable, Unbillable, invoiced</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined">
+                                    list
+                                    </span>
+                                <span>Estimates</span>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <h6>OTHERS</h6>
+                            <div>
+                                <span class="material-symbols-outlined">
+                                    speed
+                                    </span>
+                                <span>Real-time dashboard</span>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+        <div class="block">
+            <h6>MANAGE</h6>
+            <div>
+                <span class="material-symbols-outlined">
+                    folder_copy
+                    </span>
+                <span>Projects</span>
+            </div>
+            <div>
+                <span class="material-symbols-outlined">
+                    sell
+                    </span>
+                <span>Tags</span>
+            </div>
+        </div>
+        <div class="block">
+            <h6>TEAM</h6>
+            <div>
+                <span class="material-symbols-outlined">
+                    group
+                    </span>
+                <span>Users</span>
+            </div>
+        </div>
+        <div class="block">
+            <h6>CLIENTS</h6>
+            <div>
+                <span class="material-symbols-outlined">
+                    home_repair_service
+                    </span>
+                <span>Clients</span>
+            </div>
+            <div>
+                <span class="material-symbols-outlined">
+                    request_quote
+                    </span>
+                <span>Invoices</span>
+            </div>
+        </div>
+        <div class="btn">
+            <button> <span class="material-symbols-outlined">
+                keyboard_arrow_left
+                </span> </button>
+        </div>
+    </div>
+     <div class="body">
+        <nav>
+            <p>Timesheet</p>
+            <div>
+                <div class="hiddenlistContainer ">
+                    <span class="material-symbols-outlined">
+                    settings
+                    </span>
+                </div>
+                <div class="hiddenlistContainer ">
+                    <span class="material-symbols-outlined">
+                    help
+                    </span>
+                </div>
+                <div class="hiddenlistContainer ">
+                    <span class="material-symbols-outlined">
+                    person_add
+                    </span>
+                </div>
+                <div class="hiddenlistContainer ">
+                    <span class="material-symbols-outlined">
+                    account_circle
+                    </span>
+                </div>
+            </div>
+        </nav>
+        <div class="parrot">
+            <img src="https://cdn.timecamp.com/res/css/images/timesheet-classic-empty-state.svg" alt="">
+            <h2>No recent time entries</h2>
+            <p>Seems like you haven’t tracked any time yet</p>
+        </div>
+    </div> 
+    
+</body>
+</html>
+<script>
+let btn  = document.querySelector('.btn');
+let sideBar = document.querySelector('.sideBar');
+btn.addEventListener('click',()=>{
+    sideBar.classList.toggle('active')
+    btn.classList.toggle('active');
+})
+
+</script>

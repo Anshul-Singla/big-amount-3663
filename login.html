@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./signup.css">
+    <style>
+        .part1Info>h2{
+            padding-right:60px ;
+            color: #767676;
+            font: 24px sans-serif;
+            margin: 20px 0;
+        }
+        .part1Info>p{
+            background-color: #25cf60;
+            font:600 14px sans-serif;
+            color: #fff;
+            width: 50%;
+            padding: 10px 50px;
+            margin: 20px 0;
+            border-radius: 20px;
+            display: flex;
+            place-items: center;
+            gap: 1rem;
+        }
+        .part1Info>p>img{
+            width: 40px;
+        }
+        .part1Info>div{
+            display: flex;
+            place-items: center;
+            gap: 2rem;
+            margin: 50px 0;
+        }
+        .part1Info>div>img{
+            width: 100px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <img src="https://cdn.timecamp.com/res/css/images/greenbranding/TC-logo.1658395296.svg" alt="">
+        </div>
+    </nav>
+    <div class="body">
+        <div class="container">
+            <div class="part1Info">
+                <h1>TimeCamp Plugin for Google Chrome</h1>
+                <h2>Track time without leaving Chrome in 70+ online apps.</h2>
+                <p> <img src="https://cdn.timecamp.com/res/css/images/chrome-icon-button.1658395296.png" alt=""> <span>Add TimeCamp for Chrome</span> </p>
+                <div >
+                    <img src="https://cdn.timecamp.com/res/css/images/crozdesk-icon.1658395296.png" alt=""><img src="https://cdn.timecamp.com/res/css/images/capterra-icon.1658395296.png" alt=""><img src="https://cdn.timecamp.com/res/css/images/crowd-icon.1658395296.png" alt=""><img src="https://cdn.timecamp.com/res/css/images/get-app-icon.1658395296.png" alt="">
+                </div>
+            </div>
+            <div class="part2Form">
+                <h1>Log in to TimeCamp</h1>
+                <a href=""><img src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png" alt=""> Log in with Google</a>
+                <p class="aur">Or</p>
+                <form>
+                    <input type="text" placeholder="Email">
+                    <input type="password" placeholder="Password">
+                    <input type="submit" id="afterSignup" value="Sign up for free">
+                </form>
+                <p> <span class="greenText">No account? Sign up</span> or <span class="greenText"> Log in with SSO</span></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    let after = document.getElementById("afterSignup");
+    after.addEventListener('click',()=>{
+        event.preventDefault()
+        window.location.href = 'afterLoginPage.html'
+    })
+</script>
